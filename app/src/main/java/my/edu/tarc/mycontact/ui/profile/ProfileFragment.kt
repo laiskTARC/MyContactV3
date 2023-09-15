@@ -115,6 +115,8 @@ class ProfileFragment : Fragment(), MenuProvider {
         menu.findItem(R.id.action_settings).setVisible(false)
         menu.findItem(R.id.action_profile).setVisible(false)
         menu.findItem(R.id.action_about_us).setVisible(false)
+        menu.findItem(R.id.action_download).setVisible(false)
+        menu.findItem(R.id.action_upload).setVisible(false)
     }
 
     override fun onMenuItemSelected(menuItem: MenuItem): Boolean {
